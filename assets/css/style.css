@@ -132,7 +132,11 @@ nav .container ul li .judul{
 /* Product START */
 .product{
     width: 100%;
-    background-color: #333;
+    /* background-color: #b4be59; */
+
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/538/581/non_2x/abstract-geometric-yellow-background-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .product .container{
@@ -163,3 +167,50 @@ nav .container ul li .judul{
     object-fit: contain;
 } 
 /* Product eND */
+
+/* Gallery START */
+.gallery{
+    width: 100%;
+    background-color: #333;
+}
+
+.gallery .container{
+    padding: 10px;
+}
+
+.gallery .container h2{
+    color: white;
+}
+
+.gallery .container ul{
+    display: flex;
+
+}
+/* Gallery END */
+
+
+
+/* Footer START */
+.footer{
+    width: 100%;
+    background-color: #333;
+}
+
+.footer .container{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .container h2{
+    color: white;
+    padding: 10px;
+}
+
+.footer .container ul{
+    padding: 10px;
+}
+
+.footer .container ul p a{
+    color: white;
+}
+/* Footer END */
