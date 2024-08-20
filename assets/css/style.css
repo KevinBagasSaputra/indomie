@@ -1,0 +1,165 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navbar START */
+nav{
+    width: 100%;
+    background-color: #c92f2f;
+    box-shadow: 0 0 10px 1px black;
+}
+
+nav .container{
+    padding: 10px;
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li .judul{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+    /* Menu START */
+    .menu{
+        width: 100%;
+        background-color: black;
+    }
+
+    .menu .container{
+        padding: 10px;
+    }
+
+    .menu .container ul li a{
+        color: white;
+        padding: 10px;
+        text-decoration: underline;
+
+        text-underline-offset: 10px;
+    }
+
+    .menu .container ul li a:hover{
+        text-decoration-color: red;
+    }
+    /* Menu END */
+/* Navbar END */
+
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+    background-color: red;
+}
+
+.marquee .container{
+    padding: 5px;
+}
+
+.marquee .container p{
+    color: white;
+}
+/* Marquee END */
+
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .cotnainer{
+}
+
+.hero .container img{
+    min-width: 100%;
+    min-height: 100px;
+
+    max-width: 50%;
+    max-height: 500px;
+
+    object-fit: contain;
+
+    background-color: #333;
+}
+/* Hero END */
+
+
+/* About START */
+.about{
+    width: 100%;
+    background-color: red;
+}
+
+.about .container{
+    padding: 10px;
+}
+
+.about .container h2{
+    color: white;
+}
+
+.about .container ul{
+    padding: 10px;
+}
+
+.about .container ul img{
+    min-width: 100%;
+    min-height: 300px;
+
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.about .container ul p{
+    color: white;
+}
+/* About END */
+
+
+
+/* Product START */
+.product{
+    width: 100%;
+    background-color: #333;
+}
+
+.product .container{
+    padding: 10px;
+}
+
+.product .container h2{
+    color: white;
+}
+
+.product .container ul{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+} 
+
+.product .container ul a{
+    padding: 10px;
+}
+
+.product .container ul img{
+    min-width: 50%;
+    min-height: 100px;
+
+    max-width: 50%;
+    max-height: 300px;
+
+    object-fit: contain;
+} 
+/* Product eND */
